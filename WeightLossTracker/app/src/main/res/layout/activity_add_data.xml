@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_data"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context="com.limore.zhibek.weightlosstracker.AddDataActivity">
+
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Weight:"
+            android:layout_marginRight="15dp"/>
+
+        <EditText
+            android:width="100dp"
+            android:id="@+id/weight"
+            android:background="#ccc"
+            android:padding="7dp"/>
+    </TableRow>
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Chest:"
+            android:layout_marginRight="15dp"/>
+
+        <EditText
+            android:id="@+id/chest"
+            android:background="#ccc"
+            android:padding="7dp"/>
+    </TableRow>
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Waist"/>
+
+        <EditText
+            android:id="@+id/waist"
+            android:background="#ccc"
+            android:padding="7dp"/>
+    </TableRow>
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Belly"/>
+
+        <EditText
+            android:id="@+id/belly"
+            android:background="#ccc"
+            android:padding="7dp"/>
+    </TableRow>
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Hips"/>
+
+        <EditText
+            android:id="@+id/hips"
+            android:background="#ccc"
+            android:padding="7dp"/>
+    </TableRow>
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Thigh"/>
+
+        <EditText
+            android:id="@+id/thigh"
+            android:background="#ccc"
+            android:padding="7dp"/>
+    </TableRow>
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Arm"/>
+
+        <EditText
+            android:id="@+id/arm"
+            android:background="#ccc"
+            android:padding="7dp"/>
+    </TableRow>
+    <Button
+        android:id="@+id/submitDataBtn"
+        android:layout_marginTop="15dp"
+        android:text="add"
+        android:onClick="submitData"/>
+</TableLayout>
